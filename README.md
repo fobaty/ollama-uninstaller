@@ -8,12 +8,6 @@ This script completely removes Ollama from your Linux system.
 - Removes the systemd service
 - Deletes the Ollama user and group
 
-## 📥 Installation
-Clone this repository:
-```sh
-git clone https://github.com/fobaty/ollama-uninstaller.git
-cd ollama-uninstaller
-
 🗑️ Usage
 Make the script executable:
 
@@ -29,3 +23,11 @@ Edit
 sudo ./uninstall_ollama.sh
 ⚠️ Warning
 This script will permanently remove Ollama and its related files from your system.
+
+## 📥 Installation
+Clone this repository:
+```sh
+git clone https://github.com/fobaty/ollama-uninstaller.git
+cd ollama-uninstaller
+
+
