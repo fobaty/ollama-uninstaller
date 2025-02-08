@@ -13,3 +13,19 @@ Clone this repository:
 ```sh
 git clone https://github.com/fobaty/ollama-uninstaller.git
 cd ollama-uninstaller
+
+🗑️ Usage
+Make the script executable:
+
+sh
+Copy
+Edit
+chmod +x uninstall_ollama.sh
+Run the script with sudo:
+
+sh
+Copy
+Edit
+sudo ./uninstall_ollama.sh
+⚠️ Warning
+This script will permanently remove Ollama and its related files from your system.
