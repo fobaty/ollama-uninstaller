@@ -11,6 +11,8 @@ sudo systemctl disable ollama 2>/dev/null || true
 echo "Removing Ollama files..."
 sudo rm -rf /usr/local/lib/ollama /usr/local/bin/ollama
 sudo rm -rf /usr/lib/ollama /usr/bin/ollama
+sudo rm -rf ~/.ollama/
+
 
 # Removing systemd service
 echo "Removing systemd service..."
